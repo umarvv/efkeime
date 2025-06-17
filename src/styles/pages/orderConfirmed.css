@@ -1,0 +1,76 @@
+@import url('../global.css');
+@import url('../components/productInOrder.css');
+
+.order__confirmed {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 2.625rem;
+}
+
+.order__confirmed__infos {
+    padding: 1.5rem;
+    background-color: var(--Rose-50);
+    border-radius: .5rem;
+    margin: 2rem 0em;
+}
+
+.order__confirmed__icon {
+    width: 42px;
+}
+
+.order__confirmed__t {
+    font-size: var(--Font40px);
+    color: var(--Rose-900);
+    font-family: var(--FontBold);
+    margin: 2rem 0rem 1rem;
+}
+
+.order__confirmed__p {
+    font-family: var(--FontRegular);
+    color: var(--Rose-300);
+}
+
+.order__confirmed__products__order__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order__total__txt {
+    font-size: var(--Font16pxpx);
+    font-family: var(--FontRegular);
+}
+
+.order__total__price {
+    font-size: var(--Font28px);
+    font-family: var(--FontBold);
+}
+
+#start--new--order {
+    min-height: 53px;
+    background-color: var(--Red);
+    color: var(--Rose-50);
+    font-family: var(--FontSemiBold);
+    font-size: var(--Font16px);
+    border-radius: 2rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#start--new--order:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#start--new--order:active {
+    transform: scale(0.92);
+}
+
+@media(max-width:850px) {
+    .order__confirmed {
+        padding: 2.625rem 1.5rem;
+    }
+}

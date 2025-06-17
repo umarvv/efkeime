@@ -1,0 +1,16 @@
+{
+  "name": "nova-pasta",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <img src=\"https://www.frontendmentor.io/static/images/logo-mobile.svg\" alt=\"frontendmentor\" width=\"80\">   <h1>Frontend Mentor - Product list with cart</h1>   <a href=\"https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d\"><strong>Frontend Mentor Challenge</strong></a> </div>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,108 @@
+@import url('../global.css');
+
+.desserts__cart {
+    width: 100%;
+    max-width: 386px;
+    height: 100%;
+    position: relative;
+    background-color: var(--White);
+    padding: 2rem 1.5rem 2.75em;
+    border-radius: .8rem;
+    box-shadow: rgba(149, 157, 165, 0.164) 0px 8px 24px;
+}
+
+.desserts__cart__empty__cart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.desserts__cart__empty__cart__t {
+    color: var(--Red);
+    font-family: var(--FontBold);
+}
+
+.desserts__cart__empty__cart__img {
+    margin: 2.5em 0rem .563rem;
+}
+
+.desserts__cart__empty__cart__info {
+    color: var(--Rose-500);
+    font-family: var(--FontSemiBold);
+    font-size: var(--Font13px);
+}
+
+#desserts--cart--with--items {
+    display: none;
+    flex-direction: column;
+}
+
+.desserts__cart__with__items__carbon {
+    text-align: center;
+    gap: .3rem;
+    background-color: var(--Rose-50);
+    margin-bottom: 2rem;
+    padding: .813em .5rem .813em;
+    border-radius: .5rem;
+    width: 100%;
+    font-family: var(--FontRegular);
+}
+
+.desserts__cart__with__items__carbon > img {
+    margin-right: .3rem;
+}
+
+.line__in__cart,
+.line__in__order {
+    width: 100%;
+    height: 1px;
+    background-color: var(--Rose-300);
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0rem;
+}
+
+.desserts__cart__with__items__order__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0em;
+}
+
+.order__total__txt {
+    font-family: var(--FontRegular);
+    color: var(--Rose-900);
+}
+
+.order__total__price {
+    color: var(--Rose-900);
+    font-family: var(--FontBold);
+    font-size: var(--Font28px);
+}
+
+.order__total__txt {
+    font-size: var(--Font13px);
+}
+
+#confirm--order {
+    width: 100%;
+    height: 53px;
+    background-color: var(--Red);
+    color: var(--Rose-50);
+    font-family: var(--FontSemiBold);
+    font-size: var(--Font16px);
+    border-radius: 2rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#confirm--order:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#confirm--order:active {
+    transform: scale(0.92);
+}

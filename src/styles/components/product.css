@@ -1,0 +1,60 @@
+@import url('../global.css');
+@import url('../components/buttonCart.css');
+
+.product {
+    width: 100%;
+}
+
+.product__img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.product__btns__cart__img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.product__quantity {
+    color: var(--Rose-50);
+    font-size: var(--Font13px);
+}
+
+.product__infos {
+    margin-top: calc(1.125em + 22px);
+}
+
+.product__infos__category {
+    font-family: var(--FontRegular);
+    font-size: var(--Font13px);
+    color: var(--Rose-500);
+}
+
+.product__infos__name {
+    font-family: var(--FontRegular);
+    font-size: var(--Font16px);
+    color: var(--Rose-900);
+    margin: .1rem 0em;
+}
+
+.product__infos__price {
+    font-size: var(--Font16px);
+    color: var(--Red);
+    font-family: var(--FontSemiBold);
+}
+
+@media(max-width:850px) {
+    .product {
+        max-width: unset;
+    }
+}
+
+@media(max-width:500px) {
+    .product__img {
+        object-fit: cover;
+        height: 100%;
+        max-height: 212px;
+    }
+}

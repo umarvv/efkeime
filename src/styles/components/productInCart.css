@@ -1,0 +1,85 @@
+@import url('../global.css');
+
+.product__in__cart__overview {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.product__in__cart,
+.product__in__order  {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: .6rem;
+    margin: 1rem 0rem;
+}
+
+.product__in__cart__infos {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product__in__order__infos {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product__in__order__infos__img {
+    width: 48px;
+    border-radius: .3rem;
+}
+
+.product__in__cart__infos__name {
+    display: block;
+    color: var(--Rose-900);
+    font-family: var(--FontBold);
+    width: 100%;
+}
+
+.product__in__order__infos__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product__in__cart__details {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.product__in__cart__details__quantity {
+    color: var(--Red);
+    font-family: var(--FontBold);
+}
+
+.product__in__cart__details__price  {
+    color: var(--Rose-500);
+    font-size: var(--Font16px);
+    font-family: var(--FontRegular);
+}
+
+.product__in__cart__details__priceTotal {
+    color: var(--Rose-500);
+    font-family: var(--FontSemiBold);
+    font-size: var(--Font16px);
+}
+
+.product__in__cart__btnRemove {
+    width: 100%;
+    max-width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid var(--Red);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
